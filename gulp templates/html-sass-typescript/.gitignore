@@ -1,0 +1,22 @@
+*.xd
+*.fig
+*.sketch
+.prettierignore
+.DS_Store
+notes.md
+/node_modules
+README-template.md
+style-guide.md
+/design
+.markdownlint.json
+/coverage
+/src/js/utils/fetch-with-key.js
+/src/js/utils/fetch-with-no-key.js
+/dist/
+src/**/output
+/.vscode
+/src/css
+/src/js
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,1 @@
+{"version":3,"sources":["global.css"],"names":[],"mappings":";;AAAA;EACA,0DAAA;EACA,aAAA;EACA,YAAA;EACA,4BAAA;EACA,sBAAA;AACA","file":"styles.css","sourcesContent":["body {\n  background-image: url('../assets/images/icon-company.svg');\n  height: 500px;\n  width: 500px;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n"]}
