@@ -1,0 +1,37 @@
+{
+    // "files": [],
+    // "include": [],
+    // "exclude": [],
+    "compilerOptions": {
+        // TESTING
+        "types": [
+            "vitest/globals"
+        ],
+        // TYPE CHECKING
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "useUnknownInCatchVariables": true,
+        // MODULES
+        "resolveJsonModule": true,
+        "rootDir": ".",
+        "module": "CommonJS",
+        // EMIT
+        "sourceMap": true,
+        // "noEmit": true // if using babel or something like that
+        "outDir": "dist",
+        // JAVASCRIPT SUPPORT
+        "allowJs": true,
+        "checkJs": false,
+        // EDITOR SUPPORT
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": false,
+        // "lib": [] // https://www.typescriptlang.org/tsconfig#lib
+        // "target": "ES3" // can also just use target instead of lib
+        // COMPILER DIAGNOSTICS
+        "extendedDiagnostics": true,
+        "explainFiles": true
+    }
+}
