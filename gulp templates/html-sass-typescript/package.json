@@ -39,6 +39,7 @@
     "typedoc": "^0.23.21"
   },
   "scripts": {
+    "start": "gulp",
     "build": "gulp prod",
     "doc": "npx typedoc"
   },

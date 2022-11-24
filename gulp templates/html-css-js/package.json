@@ -23,6 +23,7 @@
     "vitest": "^0.25.1"
   },
   "scripts": {
+    "start": "gulp",
     "build": "gulp prod",
     "doc": "jsdoc -c jsdoc.json",
     "test": "vitest --run --reporter verbose",
