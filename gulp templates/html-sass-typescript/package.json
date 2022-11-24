@@ -30,10 +30,17 @@
     "tsify": "^5.0.4",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^4.0.0"
+    "watchify": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "typescript": "^4.9.3",
+    "typedoc": "^0.23.21"
   },
   "scripts": {
-    "build": "gulp prod"
+    "build": "gulp prod",
+    "doc": "npx typedoc"
   },
   "description": ""
 }
