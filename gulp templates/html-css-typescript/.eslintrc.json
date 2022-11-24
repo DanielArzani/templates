@@ -15,5 +15,8 @@
     },
     "rules": {
         "tsdoc/syntax": "warn"
-    }
+    },
+    "ignorePatterns": [
+        "gulpfile.js"
+    ]
 }
