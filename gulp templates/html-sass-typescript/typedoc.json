@@ -4,5 +4,6 @@
         "src/ts"
     ],
     "entryPointStrategy": "expand",
-    "out": "docs"
+    "out": "docs",
+    "readme": "none"
 }
