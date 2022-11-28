@@ -5,5 +5,9 @@
     ],
     "entryPointStrategy": "expand",
     "out": "docs",
-    "readme": "none"
+    "readme": "none",
+    "exclude": [
+        "src/ts/tests/**",
+        "src/ts/main.ts"
+    ]
 }
